@@ -32,3 +32,141 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.vizual {
+    position: relative;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #06d7c1, #50cc49);
+    border-radius: 10px 0 0 10px;
+    flex: 0 0 50%;
+}
+
+.slogan {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.bota {
+    position: absolute;
+    left: -85px;
+    bottom: 0;
+}
+
+.cenovka {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    float: right;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.detaily {
+    position: relative;
+    flex: 0 0 50%;
+    padding: 10px;
+}
+    
+.nazev {
+    padding: 15px 0 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.produkt {
+    padding: 0 0 0 15px;
+    color: #959595;
+}
+
+.popis {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0 15px 0 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #06d7c1;
+    }
+
+.parametr {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 15px 15px 0 15px;
+}
+
+.velikosti {
+    display: flex; 
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: -15px; 
+    list-style: none;
+}
+
+.velikost {
+    flex: 6;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+.vybrana {
+    flex: 6;
+    justify-content: space-between;
+    border: 1px solid #f53d18;
+    border-radius: 50%;
+    margin-right: 25px;
+    font-weight: 500;
+    color: #f15f42;
+    border-color: #f15f42;
+}
+
+.tlacitko {
+    display: flex;
+    position: absolute;
+    padding: 10px 25px;
+    margin-top: 60px;
+    margin-left: 20px;;
+    background-color: #f15f42;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase; 
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.akce a:hover {
+    background-color: #f53d18;
+}
+
+.velikosti li:hover {
+    border: 1px solid #f53d18;
+    border: 1px solid #f53d18;
+    border-radius: 50%;
+    color: #f53d18;
+}
+
+
